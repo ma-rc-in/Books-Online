@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="0.91">
+	<channel>
+		<title>Recommended Book List Sharing</title>
+		<description>Share recommended book lists - import from other applications and export them</description>
+		<language>en-us</language>
+		<item>
+			<bookid>1407198750</bookid>
+			<title>His Dark Materials: Northern Lights</title>
+			<author>Philip Pullman</author>
+			<link>https://www.amazon.co.uk/His-Dark-Materials-Northern-Lights/dp/1407198750</link>
+			<description>The first volume in Philip Pullman's HIS DARK MATERIALS trilogy. Lyra Belacqua and her animal daemon live half-wild and carefree among scholars of Jordan College, Oxford. The destiny that awaits her will take her to the frozen lands of the Arctic, where witch-clans reign and ice-bears fight. Her extraordinary journey will have immeasurable consequences far beyond her own world.</description>
+			<yearPublished>1995</yearPublished>
+		</item>	
+		<item>
+			<bookid>0007200285</bookid>
+			<title>Half of a Yellow Sun</title>
+			<author>Chimamanda Ngozi Adichie</author>
+			<link>https://www.amazon.co.uk/Half-Yellow-Chimamanda-Ngozi-Adichie/dp/0007200285</link>
+			<description>Winner of the Orange Broadband Prize for Fiction 2007, this is a heartbreaking, exquisitely written literary masterpiece, set in the era of the Biafran war in Nigeria.</description>
+			<yearPublished>2006</yearPublished>
+		</item>
+		<item>	
+			<bookid>0141187761</bookid>
+			<title>1984 Nineteen Eighty-Four</title>
+			<author>George Orwell</author>
+			<link>https://www.amazon.co.uk/Nineteen-Eighty-Four-Penguin-Modern-Classics/dp/014118776X</link>
+			<description>A dystopian novel which follows the life of Winston Smith, a low ranking member of 'the Party', who is frustrated by the omnipresent eyes of the party, and its ominous ruler Big Brother. 'Big Brother' controls every aspect of people's lives.</description>
+			<yearPublished>1949</yearPublished>
+		</item>
+		<item>
+			<bookid>0143107321</bookid>
+			<title>The Adventures of Huckleberry Finn</title>
+			<author>Mark Twain</author>
+			<link>https://www.amazon.co.uk/Adventures-Huckleberry-Finn-Penguin-Classics/dp/0143107321</link>
+			<description>In Missouri, during the 1840s, young Huck Finn fearful of his drunkard father and yearning for adventure, leaves his foster family and joins with runaway slave Jim in a voyage down the Mississippi River toward slavery free states.</description>
+			<yearPublished>1884</yearPublished>
+		</item>
+		<item>
+			<bookid>1780227892</bookid>
+			<title>A Suitable Boy</title>
+			<author>Vikram Seth</author>
+			<link>https://www.amazon.co.uk/Suitable-Boy-classic-bestseller/dp/1780227892</link>
+			<description>A tale of Lata, and her mother's, attempts to find her a suitable husband, through love or through exacting maternal appraisal. At the same time, it is the story of India, newly independent and struggling through a time of crisis as a sixth of the world's population faces its first great general election and the chance to map its own destiny.</description>
+			<yearPublished>1993</yearPublished>
+		</item>
+		<item>
+			<bookid>1408855658</bookid>
+			<title>Harry Potter and the Philosopher's Stone</title>
+			<author>J.K. Rowling</author>
+			<link>https://www.amazon.co.uk/Harry-Potter-Philosophers-Stone/dp/1408855658</link>
+			<description>On Harry Potter's eleventh birthday, he discovers that he is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!</description>
+			<yearPublished>1997</yearPublished>
+		</item>
+		<item>
+			<bookid>0140276335</bookid>
+			<title>White Teeth</title>
+			<author>Zadie Smith</author>
+			<link>https://www.amazon.co.uk/White-Teeth-Penguin-Essentials-Zadie/dp/0140276335</link>
+			<description>One of the most talked about debut novels of all time. It covers friendship, love, war, three cultures and three families over three generations, and the tricky way the past has of coming back and biting you on the ankle, it is a life-affirming, must-read book.</description>
+			<yearPublished>2000</yearPublished>
+		</item>
+		<item>
+			<bookid>0007458428</bookid>
+			<title>The Hobbit</title>
+			<author>J.R.R. Tolkien</author>
+			<link>https://www.amazon.co.uk/Hobbit-J-R-Tolkien/dp/0007458428</link>
+			<description>A timeless classic. The Hobbit is the unforgettable story of Bilbo, a peace-loving hobbit, who embarks on a strange and magical adventure.</description>
+			<yearPublished>1937</yearPublished>
+		</item>
+		<item>
+			<bookid>1949982394</bookid>
+			<title>Oliver Twist</title>
+			<author>Charles Dickens</author>
+			<link>https://www.amazon.co.uk/Oliver-Twist-Charles-Dickens/dp/1949982394</link>
+			<description>Orphan boy Oliver Twist grew up living in a workhouse where he famously asks for more gruel but is pompously rejected. He runs away straight into the London criminal underground, where he meets a young pickpocket nicknamed "The Artful Dodger" who he finds himself working side by side with in a criminal world. A poignant picture of a how cruel society can be, Oliver Twist has remained a timeless classic of the depths people will go when faced with a seemingly inescapable pit of despair.</description>
+			<yearPublished>1839</yearPublished>
+		</item>
+		<item>
+			<bookid>1509808310</bookid>
+			<title>The Hitchhiker's Guide to the Galaxy</title>
+			<author>Douglas Adams</author>
+			<link>https://www.amazon.co.uk/Hitchhikers-Guide-Galaxy-Douglas-Adams/dp/1509808310</link>
+			<description>The intergalactic adventures of Arthur Dent begin in this comedy sci-fi classic.</description>
+			<yearPublished>1979</yearPublished>
+		</item>
+		<item>
+			<bookid>0241950430</bookid>
+			<title>The Catcher in the Rye</title>
+			<author>J.D. Salinger</author>
+			<link>https://www.amazon.co.uk/Catcher-Rye-J-D-Salinger/dp/0241950430</link>
+			<description>Witty, wise and bittersweet, The Catcher in the Rye is the ultimate American coming-of-age novel - a timeless classic.</description>
+			<yearPublished>1951</yearPublished>
+		</item>
+		<item>
+			<bookid>1509828303</bookid>
+			<title>The Man Who Didn't Call</title>
+			<author>Rosie Walsh</author>
+			<link>https://www.amazon.co.uk/Man-Who-Didnt-Call/dp/1509828303</link>
+			<description>A heart-wrenching love story with a dark secret at its heart, for anyone who's waited for a phone call that didn't come.</description>
+			<yearPublished>2018</yearPublished>
+		</item>
+		<item>
+			<bookid>1904233651</bookid>
+			<title>Twilight</title>
+			<author>Stephenie Meyer</author>
+			<link>https://www.amazon.co.uk/Twilight-Book-Saga/dp/1904233651</link>
+			<description>A young adult vampire-romance novel. It is the first book in the Twilight series, and introduces seventeen-year-old Bella Swan, who is endangered after falling in love with Edward Cullen, a vampire.</description>
+			<yearPublished>2005</yearPublished>
+		</item>
+		<item>
+			<bookid>1731546424</bookid>
+			<title>Pride and Prejudice</title>
+			<author>Jane Austen</author>
+			<link>https://www.amazon.co.uk/Pride-Prejudice-Jane-Austen/dp/1731546424</link>
+			<description>A romantic novel which charts the emotional development of the protagonist, Elizabeth Bennet, who learns the error of making hasty judgments and comes to appreciate the difference between the superficial and the essential. The comedy of the writing lies in the depiction of manners, education, marriage, and money during the British Regency period.</description>
+			<yearPublished>1813</yearPublished>
+		</item>
+	</channel>
+</rss>
