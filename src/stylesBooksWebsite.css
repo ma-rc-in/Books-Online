@@ -1,0 +1,503 @@
+/* This is a CSS file that contains all the styles for the entire website */
+
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  min-width: 850px;
+}
+
+.wrapperHeader {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  display: inline-block;
+  color: white;
+}
+
+.bookIcon {
+  margin: 0px 15px 0px 15px;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  white-space: wrap;
+  background: white;
+  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.05);
+  left: 0;
+  right: 0;
+  height: 80px;
+  box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75);
+}
+
+.buttonsNav {
+  display: inline-block;
+  width: 33.333%;
+  padding: 16px 0;
+  text-align: center;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  line-height: 50px;
+  background-color: white;
+  transition: 0.3s;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0.75px #000000;
+}
+
+.buttonsNav:hover {
+  background-color: #d1d1d1;
+}
+
+.buttonsNavLogout {
+  display: inline-block;
+  width: 50%;
+}
+
+
+main {
+
+}
+
+.searchForm {
+  width: 90%;
+  position: relative;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.searchBar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 65px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: -1px 9px 18px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0 0 2px #000000;
+}
+
+.searchBarButton {
+  position: absolute;
+  text-align: center;
+  color: black;
+  line-height: 32px;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 65px;
+  background: #bfbfbf;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  transition: 0.5s;
+  opacity: 0.98;
+  border: none;
+}
+
+.searchBarButton:hover {
+  opacity: 1;
+  background: #8f8f8f;
+}
+
+
+.filterBoxes {
+  display: none;
+}
+
+.filterBoxes + label {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  float: left;
+  vertical-align: middle;
+  margin-left: 14%;
+}
+
+.filterBoxes + label:before {
+  display: inline-block;
+  content: "\2716";
+  border: 0.1em solid #9faba2;
+  width: 16px;
+  height: 16px;
+  padding-left: 8px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  margin-right: 4px;
+  color: transparent;
+  transition: 0.3s;
+  border-radius: 1px;
+}
+
+
+.filterBoxes:checked + label:before {
+  background-color: #00ff40;
+  border-color: #00ff40;
+  color: white;
+}
+
+.wrapperBooksContent  {
+  width: 100%;
+  float: right;
+  clear: both;
+  background: rgba(0, 0, 0, 0.4);
+  margin-top: 100px;
+  height: 350px;
+}
+.bookEntity {
+  width: 32%;
+  margin: 0.6%;
+  border-radius: 1px;
+  float: left;
+  height: 200px;
+  margin-top: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.bookEntityText {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  height: 200px;
+  text-align: center;
+  line-height: 25px;
+  text-align: justify;
+}
+
+
+.bookEntityTextLogout {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  height: 200px;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  margin-top: 150px;
+}
+
+a.bookEntityTextLogoutLink:visited {
+  color: white;
+}
+
+a.bookEntityTextLogoutLink:link {
+  color: white;
+}
+
+
+.bookView {
+  position: relative;
+  text-align: center;
+  height: 150px;
+  font-size: 45px;
+  font-weight: 300;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+a.viewBook:visited {
+  color: white;
+}
+
+a.viewBook:link {
+  color: white;
+}
+
+.addToBookList
+{
+  position: relative;
+  width: 300px;
+  height: 80px;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-appearance: initial;
+  border-radius: 100px;
+  margin-top: 50px;
+  line-height: 15px;
+  text-align: center;
+  padding-left: 1px;
+  padding-top: 4px;
+  color: white;
+  background: rgba(0, 255, 106, 0.8);
+  border: none;
+  transition: 0.3;
+}
+
+.addToBookList:hover
+{
+  background: rgba(0, 212, 88, 0.8);
+}
+
+
+.addBookText {
+  width: 100%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+
+li.bookTitleText {
+  list-style-type: none;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 80px;
+  text-align: center;
+}
+
+.formLogin {
+  width: 400px;
+  margin: auto;
+  min-width: 20%;
+  margin-top: 3%;
+}
+
+
+.labelsForm {
+  color: white;
+  font-size: 25px;
+  font-weight: 250;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-bottom: 35px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.showError {
+  color: red;
+  font-size: 16px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.loginFormEmailText, .loginFormPasswordText {
+  background: transparent;
+  border: 0 solid;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  display: block;
+  width: 350px;
+  font-size: 20px;
+  margin: 15px;
+  padding: 10px;
+  -webkit-transition: 300ms background ease-in;
+  transition: 300ms background ease-in;
+}
+.loginFormEmailText:focus, .loginFormPasswordText:focus {
+  background: white;
+  color: black;
+  -webkit-transition: 300ms background ease-in;
+  transition: 300ms background ease-in;
+}
+
+.loginFormSubmitButton {
+  width: 400px;
+  height: 50px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: 300ms background ease-in;
+  transition: 300ms background ease-in;
+  left: 0;
+  margin-top: 50px;
+}
+
+.loginFormSubmitButton:hover, .loginFormSubmitButton:focus {
+  background: white;
+  color: black;
+  -webkit-transition: 250ms background ease-in;
+  transition: 250ms background ease-in;
+}
+
+.backgroundImage {
+  background: url("images/booksBackground.jpg"); /*This picture was retreived from here: https://unsplash.com/photos/Oaqk7qqNh_c  and it is copyright free*/
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(5%);
+  z-index: -2;
+}
+
+.backgroundBlack {
+  background: rgba(0, 0, 0, 0.75);
+  z-index: -2;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.positionBackgrounds {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  margin-top: 400px;
+  clear: both;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  padding-top: 15px;
+  overflow: auto;
+  z-index: -1;
+}
+
+footer::before {
+  content: 'KF6034 - Object Oriented and Web Programming';
+}
+
+footer::after {
+  padding-top: 5px;
+  display: block;
+  content: 'Author: Marcin Wisniewski / 19032935 ';
+}
+
+.removeBookButton {
+  position: relative;
+  width: 300px;
+  height: 70px;
+  outline: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-appearance: initial;
+  border-radius: 100px;
+  margin-top: 20px;
+  line-height: 15px;
+  color: white;
+  border: none;
+  background: rgba(252, 186, 3, 0.8);
+}
+
+.removeBookButton:hover {
+  background: rgba(214, 157, 0, 0.8);
+}
+
+.changeColourRemoveAll {
+  background: rgba(255, 0, 60, 0.8);
+}
+
+.changeColourRemoveAll:hover {
+  background: rgba(214, 0, 0, 0.8);
+}
+
+
+.scrollUpButton{
+  position: fixed;
+  bottom: 15px;
+  right: 17px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.scrollUpButton:hover{
+  opacity: 1;
+  transition: 0.3s;
+}
+
+/*media property to change the style of some elements when the width of the page is less than 1500px*/
+@media screen and (max-width: 1500px) {
+  .bookEntity {
+    width: 32%;
+    margin: 0.6%;
+    border-radius: 1px;
+    float: left;
+    height: 200px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .bookEntityText {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 200px;
+    text-align: center;
+    text-align: justify;
+  }
+
+  .bookView {
+    position: relative;
+    text-align: center;
+    height: 150px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 70px;
+  }
+
+
+  li.bookTitleText {
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 80px;
+    text-align: center;
+  }
+
+  .addToBookList  {
+    position: relative;
+    width: 200px;
+    height: 80px;
+    outline: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-appearance: initial;
+    border-radius: 100px;
+    margin-top: 50px;
+    line-height: 15px;
+    text-align: center;
+    padding-left: 1px;
+    padding-top: 4px;
+    color: white;
+    background: rgba(0, 255, 106, 0.8);
+    border: none;
+    transition: 0.3;
+  }
+
+  .removeBookButton, .changeColourRemoveAll {
+    position: relative;
+    width: 180px;
+    height: 80px;
+    outline: none;
+    font-size: 14px;
+  }
+}
