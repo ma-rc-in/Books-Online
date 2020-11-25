@@ -9,7 +9,3 @@ This project provides an online library system for books managing purposes. It r
 ## Author
 
 * [**Marcin Wisniewski**](https://github.com/ma-rc-in)
-
-## Acknowledgments
-
-*  **HND Year 2 computing lecturer :)**
