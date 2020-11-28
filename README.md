@@ -1,6 +1,6 @@
 # About the project
 
-This project provides an online library system for books managing purposes. It retreives a list of books from an external XML file. Completed  as part of a university project. 
+This project provides an online library system for books managing purposes. It retreives a list of books from an external XML file. 
 
 ## Built With
 
